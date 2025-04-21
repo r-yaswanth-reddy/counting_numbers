@@ -10,8 +10,9 @@ body {
     background-color: rgba(0, 0, 0, 0.5);
     position: absolute;
     top: 0; left: 0; right: 0; bottom: 0;
+    gap: 10px;
 
-    
+     
 }
 
 .content{
@@ -21,41 +22,33 @@ body {
 
 }
 
-.content h1
+.content h1,
 .content h2 {
     margin: 0;
     line-height: 1.1;
 }
 
-#enter_count {
-    font-size: large;
+
+
+.button-grp{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    margin: 70px 0 0 0 ;
+}
+
+button{
+    width: 100px;
     border: rgb(221, 209, 209) solid 2px;
     border-radius: 5px;
-    padding: 5px;    
-    width: 150px;
-    background-color: rgba(0, 0, 0, 1);
-    outline: none;
-    color: #575555;
-    transition: 0.3s ease;  
-
+    size: xx-large;
+    padding: 5px;
+    font-size: small;
 }
 
-
-#enter_count:hover {
-    border-color: rgb(238, 43, 43);
-    background-color: rgba(0, 0, 0, 0.5);
-    color: #575555;
-    transition: 0.3s;
+#increment-btn{
+    background-color: rgb(240, 78, 78);
 }
-#enter_count:focus {
-    border-color: rgb(238, 43, 43);
-    background-color: rgba(0, 0, 0, 0.5);
-    color: #575555;
-}
-
-#input {
-    padding: 20px;
-    display: flex;
-    gap: 10px;
-    justify-content: center;
+#save-btn{
+    background-color: rgb(78, 240, 78);
 }
